@@ -15,7 +15,7 @@
         <div class="repo-list row">
             <!-- Check here for github metadata -->
             <!-- https://help.github.com/articles/repository-metadata-on-github-pages/ -->
-            {% for repo in sorted_repos % | limit: site.side_bar_repo_limit %}
+            {% for repo in sorted_repos % | limit: site.repo_limit %}
             <div class="col-md-4 card text-center">
                 <div class="thumbnail">
                     <div class="card-image geopattern" data-pattern-id="{{ repo.name }}">
