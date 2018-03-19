@@ -120,6 +120,7 @@ navs:
 # Sidebar to show popular repo
 side_bar_repo_limit: 5 # Number of repos to show
 repo_limit: 8
+project_number: 6
 # Google Analytics
 analytics :
   provider : google
