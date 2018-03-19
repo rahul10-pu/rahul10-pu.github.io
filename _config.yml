@@ -10,7 +10,7 @@ title: I am Rahul !
 name: Rahul Kumar
 email: rahul10.pu@gmail.com
 location: Punjab, India
-company: Panjab University Swami Sarwanand Giri Regional Centre
+company: Panjab University SSG Regional Centre
 company_url: http://ssgpurch.puchd.ac.in
 github_url: https://github.com/rahul10-pu
 description: This is personnel website of Rahul Kumar
@@ -118,7 +118,7 @@ navs:
 
 
 # Sidebar to show popular repo
-side_bar_repo_limit: 5 # Number of repos to show
+side_bar_repo_limit: 10 # Number of repos to show
 
 # Google Analytics
 analytics :
@@ -128,7 +128,7 @@ analytics :
 
 
 # For about.html. Fell free to create your own!
-skill_software_keywords: [C, C++, Qt, Python]
+skill_software_keywords: [C, C++, Python]
 skill_j2ee_keywords: [Spring, Struct, Hibernet, MyBatis, JSP]
-skill_web_keywords: [HTML, CSS, JS, JQuery, Ajax, AngularJS, NodeJS, ExpressJS, MongoDB, Redis, PHP, Symfony, Boostrap]
-skill_mobile_app_keywords: [Android, Sketch UI Desgin]
+#skill_web_keywords: [HTML, CSS, JS, JQuery, Ajax, AngularJS, NodeJS, ExpressJS, MongoDB, Redis, PHP, Symfony, Boostrap]
+#skill_mobile_app_keywords: [Android, Sketch UI Desgin]
