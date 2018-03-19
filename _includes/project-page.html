@@ -11,13 +11,19 @@
             </div>
         </div>
     </section>
-    
+  
+    <section class="content container">
+    <div class="row">
+        <div class="col-md-8">
+     <center><h3>My contributions in the last year</h3></center>
+<center><img src="http://ghchart.rshah.org/rahul10-pu" alt="rahul10-pu's Github chart" /></center><br><br>
+     </div>
+    </div>
+</section>
+
     
     <section class="container">
         <div class="repo-list row">
-             <center><h3>My contributions in the last year</h3></center>
-<center><img src="http://ghchart.rshah.org/rahul10-pu" alt="rahul10-pu's Github chart" /></center><br><br>
-            
             <!-- Check here for gihub metadata -->
             <!-- https://help.github.com/articles/repository-metadata-on-github-pages/ -->
             {% for repo in sorted_repos % | limit: site.repo_limit %}
